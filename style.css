@@ -1,0 +1,35 @@
+.container{
+	width: 800px;
+    margin: 0 auto;
+}
+
+.element img{
+	width: 105px;
+	height: 370px;
+}
+
+#move{
+	display: none;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#move .flex{
+	justify-content: space-between;
+}
+
+#move .t_a-c{
+	text-align: center;
+}
+
+#move img{
+	width: 200px;
+}
+
+#out{
+	text-transform: uppercase;
+}

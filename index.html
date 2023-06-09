@@ -5,11 +5,43 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
 
 <body>
+	<div class="container">
+		<div class="flex">
+			<button class="element" id="but_fire">
+				<img src="img/fire.png" alt="fire">
+			</button>
+			<button class="element" id="but_earth">
+				<img src="img/earth.png" alt="earth">
+			</button>
+			<button class="element" id="but_water">
+				<img src="img/water.png" alt="water">
+			</button>
+		</div>
 
+		<div id="move" class="flex">
+			<div class="t_a-c">
+				<h1>Ваш ход:</h1>
+				<img id="man_move" src="img/fire_army.png" alt="">
+			</div>
+
+			<div class="t_a-c">
+				<h1 id="out"></h1>
+			</div>
+
+
+			<div class="t_a-c">
+				<h1>Ход противника:</h1>
+				<img id="computer_move" src="img/fire_army.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<script src="index.js" defer></script>
 </body>
 
 </html>
